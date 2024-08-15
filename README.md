@@ -1,4 +1,4 @@
-# SanityPress
+q# SanityPress
 
 An opinionated and minimally styled starter template with Tailwind CSS and pre-built schema and modules for rapid website development.
 
