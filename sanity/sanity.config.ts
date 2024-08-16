@@ -21,7 +21,7 @@ export default defineConfig({
 	name: 'default',
 	title: 'SanityPress',
 
-	projectId,
+	projectId: 'elyfelq1',
 	dataset,
 	basePath: '/admin',
 

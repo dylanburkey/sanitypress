@@ -1,10 +1,6 @@
 const { createClient } = require('next-sanity')
 const groq = require('groq')
-export default defineCliConfig({
-	api: {
-		projectId: 'elyfelq1',
-	},
-})
+
 const client = createClient({
 	projectId: process.env.NEXT_PUBLIC_SANITY_PROJECT_ID,
 	dataset: process.env.NEXT_PUBLIC_SANITY_DATASET,
