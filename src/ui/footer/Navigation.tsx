@@ -7,7 +7,10 @@ export default async function Menu() {
 	const { footerMenu } = await getSite()
 
 	return (
-		<nav className="flex flex-wrap items-start gap-x-12 gap-y-6 max-sm:flex-col">
+		<nav
+			id="better"
+			className="flex flex-wrap items-start gap-x-12 gap-y-6 max-sm:flex-col"
+		>
 			{footerMenu?.items?.map((item, key) => {
 				switch (item._type) {
 					case 'link':
