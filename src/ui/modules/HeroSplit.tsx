@@ -23,7 +23,7 @@ export default function HeroSplit({
 			<figure
 				className={cn('max-md:full-bleed', image?.onRight && 'md:order-1')}
 			>
-				<Img image={image} imageWidth={1200} />
+				<Img image={image} imageWidth={1200} alt={image?.alt} />
 			</figure>
 
 			<div className="richtext mx-auto w-full max-w-lg [&_:is(h1,h2)]:text-balance">
