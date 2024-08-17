@@ -67,7 +67,7 @@ Optionally, you can publish the following documents:
 
 - a **Page** document with slug: `404` to use as the _Page not found_ page.
 
-#### Import a demo dataset
+#### Import a demo datasets
 
 You can run a CLI command to import demo content to get SanityPress up and running in seconds.
 
